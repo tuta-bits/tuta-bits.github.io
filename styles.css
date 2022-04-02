@@ -1,0 +1,95 @@
+a:link
+{
+    text-align: center;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: #b200ff;
+    list-style: none;
+}
+a 
+{
+    text-decoration: none;
+}
+nav ul ul 
+{
+    display: none;
+}
+nav ul li:hover > ul 
+{
+    display: block;
+}
+nav ul 
+{
+    list-style: none;
+    background: -ms-linear-gradient(top,#ffd800 0%,#ff6a00 200%);
+    background: -webkit-linear-gradient(top,#ffd800 0%,#ff6a00 200%);
+    background: -moz-linear-gradient(top,#ffd800 0%,#ff6a00 200%);
+    background: linear-gradient(top,#ffd800 0%,#ff6a00 200%);
+    box-shadow: 0px 5px 15px #808080;
+    padding: 0 20px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-table;
+}
+nav li.home
+{
+    width: 310px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+nav li.about 
+{
+    width: 310px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+nav li.faq
+{
+    width: 310px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+nav li.career
+{
+    width: 310px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+nav li.contact
+{
+    width: 310px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+a:hover.home
+{
+    color: #212121;
+}
+a:active
+{
+    color: #1c1c1c;
+}
+a:visited
+{
+    color: #4c2c92;
+}
+body
+{
+    background-color: #dce4ef;
+}
