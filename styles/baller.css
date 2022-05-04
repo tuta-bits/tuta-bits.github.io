@@ -1,0 +1,37 @@
+#baller {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 649px;
+        width: 130px;
+        height: 70px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+#bark {
+    position: absolute;
+    z-index: -10;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
+}

@@ -4,7 +4,9 @@
     <head>
         <meta charset="utf-8" />
         <title>Smart Ideas</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/conta.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -13,11 +15,11 @@
                 <li class="home"><a href="index.html">Home</a></li>
                 <li class="about"><a href="about.html">About Us</a>
                     <ul>
-                        <li class="company"><a href="company.html">The Company</a></li>
-                        <li class="people"><a href="people.html">The people</a>
+                        <li class="company"><a href="#">The Company</a></li>
+                        <li class="people"><a href="#">The people</a>
                             <ul>
-                                <li class="emp"><a href="emp.html">Employees</a></li>
-                                <li class="mgt"><a href="mgt.html">Management</a></li>
+                                <li class="emp"><a href="#">Employees</a></li>
+                                <li class="mgt"><a href="#">Management</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -27,5 +29,54 @@
                 <li class="contact"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+
+        <div>
+            <form>
+                <h1>Would you like to get 
+                    in touch with us to know more about the work we do?</h1>
+                <h3>Do write to us at <a href = "#">
+                    info@AUbe.com </a> or if you still love writing good old letters, 
+                    drop a letter to:</h3>
+                    <p class="capo">
+                    176, Carraway Street,<br>
+                    Kelvin Grove, <br>
+                    4059 QLD, <br>
+                    Australia.
+                    </p>
+                    <br><br>
+                <h3>Please leave us your details, and we will get in touch with you.</h3>
+
+                    <fieldset>
+                        <legend>Personal details</legend>
+                        <label>Name:
+                        <br>
+                        <input type="text" name="nm"></label>    
+                        <br><br>
+                        <label>Email:
+                        <br>
+                        <input type="email" name="em"></label>     
+                        <br><br>
+                    </fieldset>
+                <br><br><br>
+                <div>
+                    <label class="klos">Leave a message:</label><br>
+                    <textarea name="message" rows="10px" cols="40px" placeholder="Your Opinion..."></textarea>
+                </div>
+                <br>
+                <input type="submit">
+            </form>
+        </div>
+        <section>
+            <h3>Socials</h3>
+            <ul class="icons">
+                <li><a href="https://github.com/tuta-bits" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/anthony-ube-a45b2092/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </section><br>
+
+        <footer id="last">
+            Tel &#9742 +44 177 776 5555 | 
+            &copy Tony Ube 2022 | Policies
+        </footer>
     </body>
 </html>
