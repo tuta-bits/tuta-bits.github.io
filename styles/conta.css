@@ -1,0 +1,27 @@
+h1 {
+    text-align: center; 
+    color: #4C565E;
+}
+
+legend {
+    font: bold 16px sans-serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+.klos {
+    font-size: 18px;
+}
+
+.capo {
+    background-color: #EBEBEB;
+      width: 160px;
+      height: 80px;
+      border-width: medium;
+      border-style: groove; 
+      border-color: #AF6060;
+      padding: 15px;
+      margin: 5px;
+}
