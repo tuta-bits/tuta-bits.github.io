@@ -26,10 +26,10 @@ p {
       margin: 5px;
 }
 
-ul li {
+li.skope {
     list-style: none;
     float: left;
-    padding: 7px;
+    padding: 10px;
 }
 
 section {
@@ -41,4 +41,8 @@ section {
     padding: 10px;
     margin: 10px;
     color: #0071bc;
+}
+
+.nwa {
+    font-size: 48px;
 }
