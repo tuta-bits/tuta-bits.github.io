@@ -46,3 +46,7 @@ section {
 .nwa {
     font-size: 48px;
 }
+
+.skope:hover {
+    transform: translateY(12px);
+}
